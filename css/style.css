@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.contentt{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin-top: 25px;
+    background-color: antiquewhite;
+    padding: 10px 20px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;: ;
+    border: #0088a5 10px solid;
+}
+
+.text{
+    letter-spacing: 1.1px;
+}
