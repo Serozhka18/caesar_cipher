@@ -1,19 +1,22 @@
 body{
     display: flex;
     justify-content: center;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
 }
 
 .contentt{
     display: flex;
     flex-direction: column;
     max-width: 500px;
-    margin-top: 25px;
-    background-color: antiquewhite;
+    margin-top: 20vh;
+    background-color: #f0ecfa;
     padding: 10px 20px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;: ;
-    border: #0088a5 10px solid;
+    border: #0088a5 7px solid;
+
 }
 
 .text{

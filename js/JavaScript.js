@@ -1,4 +1,4 @@
-class Caser {
+class Caesar {
         constructor(message) {
         this.message = message;
         this.alphabet=[
@@ -117,18 +117,18 @@ class Caser {
 
 
 
-let CaserTest = new Caser('');
+let CaesarCipher = new Caesar('');
 function config() {
     let message = document.getElementById('message').value;
     let shift = document.getElementById('shift').value;
-    CaserTest.setMessage(message);
-    CaserTest.setShift(parseInt(shift));
+    CaesarCipher.setMessage(message);
+    CaesarCipher.setShift(parseInt(shift));
 }
 function encrypt() {
-    document.getElementById('cipher').value = CaserTest.encrypt().getMessage();
+    document.getElementById('cipher').value = CaesarCipher.encrypt().getMessage();
 }
 
 function decrypt() {
-    alert(CaserTest.decrypt().getMessage());
+    alert(CaesarCipher.decrypt().getMessage());
 }
 
